@@ -1,0 +1,1 @@
+Kölappsutdelare1.QueueTicketDispenser
