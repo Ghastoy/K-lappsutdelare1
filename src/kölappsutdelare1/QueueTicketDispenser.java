@@ -1,17 +1,16 @@
 package Kölappsutdelare1;
 
 public class QueueTicketDispenser {
-    private int nr;
-    private int objectCount;
+    static public int nr = 1;
+    static private int objectCount = 0;
     
-    public QueueTicketDispenser(){
-        nr = (objectCount++);
-        objectCount++;
-    }
+   
     
+
     public int getNextNumber(){
         return nr++;
     }
-    
-    
 }
+    
+    
+
