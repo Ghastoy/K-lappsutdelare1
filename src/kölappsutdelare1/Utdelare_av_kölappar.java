@@ -16,6 +16,12 @@ public class Utdelare_av_kölappar {
         //Det andra objektet levererar samma serie nummer som det första,
         //lösning: skapa bara ett objekt av klassen
         
+        QueueTicketDispenser q3 = new QueueTicketDispenser();
+        myNumber = q3.getNextNumber();
+        System.out.println("Könummer: " + myNumber);
       
+        QueueTicketDispenser q4 = new QueueTicketDispenser();
+        myNumber = q4.getNextNumber();
+        System.out.println("Könummer: " + myNumber);
     }
 }
